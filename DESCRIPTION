@@ -7,8 +7,7 @@ Authors@R:
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Suggests: 
-    covr,
-    testthat (>= 3.0.0)
+    covr
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -16,3 +15,9 @@ RoxygenNote: 7.1.2.9000
 URL: https://github.com/EmilHvitfeldt/monkeytest,
     https://emilhvitfeldt.github.io/monkeytest/
 BugReports: https://github.com/EmilHvitfeldt/monkeytest/issues
+Imports: 
+    pkgload,
+    purrr,
+    rlang,
+    testthat,
+    withr
